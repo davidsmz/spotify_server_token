@@ -1,0 +1,17 @@
+{
+  "name": "spotiserver",
+  "version": "1.0.0",
+  "description": "server for get token spotify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "David Smz",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.17.0",
+    "request": "^2.88.0"
+  }
+}
